@@ -21,6 +21,16 @@ claude plugin marketplace add experimental-gains/claude-plugins
   claude plugin install supplychain-guard@experimental-gains-plugins
   ```
 
+## Also works as a GitHub Copilot CLI marketplace
+
+Copilot CLI reads the same `.claude-plugin/marketplace.json` file above —
+no changes needed here. Verified end-to-end with the real published repo:
+
+```
+copilot plugin marketplace add experimental-gains/claude-plugins
+copilot plugin install supplychain-guard@experimental-gains-plugins
+```
+
 ## Why
 
 Coding agents occasionally invent package names that sound plausible but
