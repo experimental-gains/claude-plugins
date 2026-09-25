@@ -1,0 +1,14 @@
+{
+  "name": "experimental-gains-plugins",
+  "description": "Claude Code plugins from experimental-gains: supply-chain security checks for AI-assisted dependency changes (Python, npm, Go).",
+  "owner": {
+    "name": "experimental-gains"
+  },
+  "plugins": [
+    {
+      "name": "supplychain-guard",
+      "source": "./plugins/supplychain-guard",
+      "description": "Catches AI-hallucinated/slopsquatted package names and Go module supply-chain leaks before they ship."
+    }
+  ]
+}

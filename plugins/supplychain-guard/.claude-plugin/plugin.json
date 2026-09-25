@@ -1,0 +1,9 @@
+{
+  "name": "supplychain-guard",
+  "description": "Catches AI-hallucinated/slopsquatted package names and Go module supply-chain leaks before they ship — wraps the open-source slopcheck, modslop, goprivaudit, and goproxycheck CLIs.",
+  "version": "1.0.0",
+  "author": {
+    "name": "experimental-gains"
+  },
+  "homepage": "https://github.com/experimental-gains/agent-bootstrap-log"
+}
